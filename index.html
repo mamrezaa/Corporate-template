@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>پروژه چهارم</title>
+    <style>
+        
+        @font-face{
+            font-family:"lalezar";
+            src:url("./fonts/lalezar.ttf") format("truetype"),
+            url("./fonts/lalezar.woff") format("woff");
+        }
+        
+        @font-face{
+            font-family:"byekan";
+            src:url(./fonts/Byekan.ttf) format("truetype"),
+                url(./fonts/Byekan.woff) format("woff");
+        }
+        
+        .header{
+            height: 450px;
+            width: 1340px;
+            box-sizing: border-box;
+            background-image: url(./assets/background.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .menu{
+            font-size: 20px;
+            display:inline-block;
+            padding: 10px;
+            color: white;
+            font-family: "byekan";
+        }
+        
+        .menu:hover{
+            background-color: chocolate;
+        }
+        
+        .ul{
+            text-align: center;
+            padding:20px;
+        }
+        
+        .desc{
+            text-align: center;
+            color: white;
+            font-family: "lalezar";
+            font-size: 55px;
+        }
+        
+        span{
+            color: darkgoldenrod;
+        }
+        
+        .note{
+            display: inline-block;
+            margin-right: 510px;
+            text-align: center;
+            font-size: 16px;
+            border-style: double;
+            border: 2px double white;
+            border-radius: 15px;
+            padding: 10px 25px 10px 25px;
+            background-color: black;
+            color: white;
+            font-family: "byekan";
+            
+        }
+        
+        p{
+            text-align: center;
+            font-family: "byekan";
+        }
+        
+        
+        .member{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        .member-info{
+            font-family: byekan;
+            text-align: center;
+        }
+        
+        .member-list{
+            list-style-type: none;
+             text-align: center;
+    
+        }
+        
+        .member-item{
+            width: 310px;
+            display: inline-block;
+            padding: 10px;
+            box-shadow: 0px 0px 15px ;
+            margin: 10px
+
+        }
+        
+        .member-pic{
+            width: 100%;
+            
+        }
+        
+        .member-text{
+            padding: 5px;
+            text-align: center;
+            color: black;
+            padding-top: 0px;
+            text-align: justify;
+        }
+        
+        .member-h2{
+            color: black;
+            margin-top: 0px;
+            
+        }
+        
+        
+        .about{
+            height: 500px;
+            width: 1300px;
+            background-image: url(./assets/bg.jpg);
+            background-size: cover;
+            background-position: center;
+            margin: auto;
+            margin-top: 20px;
+            background-color: black;
+            background-blend-mode: luminosity;
+            padding-top: 40px;
+        }
+        
+        .circle{
+            height: 400px;
+            width: 400px;
+            border: 4px lightgray white;
+            border-radius: 50%;
+            background-color: rgba(125, 165, 190, 0.8);
+            box-sizing: border-box;
+            display: block;
+            margin: auto;
+            padding-top: 10px;
+            text-align: center;
+            
+        }
+        
+        .circle p,h2{
+            padding: 10px;
+            color: white;
+            font-family: "byekan";
+            margin-top: 40px;
+        }
+        
+        .circle p{
+            text-align: justify;
+        }
+        
+        .child1 p{
+            box-sizing:border-box;
+            
+            
+        }
+        
+        .footer{
+            height:90px ;
+            width: 1300px;
+            background-color: lightgray;
+            margin: auto;
+            text-align: center;
+            box-sizing: border-box;
+            padding-top: 35px;
+            margin-top: 10px;
+        }
+        
+        .footer1{
+            height: 70px;
+            width: 1300px;
+            background-color: dimgrey;
+            box-sizing: border-box;
+            padding-top: 10px;
+        }
+        
+    
+    </style>
+    
+    
+    
+</head>
+<body>
+   <div class="header">
+   <ul class="ul">
+       <li class="menu"><p>صفحه اصلی</p></li>
+       <li class="menu"><p>محصولات</p></li>
+       <li class="menu"><p>درباره ما</p></li>
+       <li class="menu"><p>اعضای شرکت</p></li>
+       
+   </ul>
+   
+   <h1 class="desc">طراحی قالب وب با<span>محمدرضا نادری</span></h1>
+   <p class="note">طراحی انواع سایت های شرکتی،شخصی، فروشگاهی </p>
+   </div>
+   
+   
+   <div class="member">
+      <h1 class="member-info">اعضای شرکت</h1>
+       <ul class="member-list">
+          <li class="member-item">
+             <img class="member-pic" src="./assets/member3.jpg">
+             <h2 class="member-h2">علی عباسی</h2>
+             <p class="member-text">هافبک دفاعی مدنظر پرسپولیس اما به دلایلی امروز در این باشگاه حاضر نخواهد شد و به نظر می‌رسد این قرارداد امروز به امضا نرسد و باید دید سرنوشت آن چه خواهد شد.</p>
+              
+          </li>
+          
+          <li class="member-item">
+              <img class="member-pic" src="./assets/member1.jpg">
+              <h2 class="member-h2">مینا ترابی</h2>
+              <P class="member-text">هافبک دفاعی مدنظر پرسپولیس اما به دلایلی امروز در این باشگاه حاضر نخواهد شد و به نظر می‌رسد این قرارداد امروز به امضا نرسد و باید دید سرنوشت آن چه خواهد شد.</P>
+          </li>
+          
+          <li class="member-item">
+              <img class="member-pic"  src="./assets/member2.jpg">
+              <h2 class="member-h2">محمدرضا نادری</h2>
+              <p class="member-text">هافبک دفاعی مدنظر پرسپولیس اما به دلایلی امروز در این باشگاه حاضر نخواهد شد و به نظر می‌رسد این قرارداد امروز به امضا نرسد و باید دید سرنوشت آن چه خواهد شد.</p>
+          </li>
+           
+           
+       </ul>
+   </div>
+   
+    <div class="about">
+       <div class="circle">
+       
+       <h2>درباره شرکت</h2>
+       <p> هافبک دفاعی مدنظر پرسپولیس اما به دلایلی امروز در این باشگاه حاضر نخواهد شد و به نظر می‌رسد این قرارداد امروز به امضا نرسد و باید دید سرنوشت آن چه خواهد شد. </p>
+        
+        </div>
+    </div>
+   
+   <div class="footer"><div class="footer1">
+   <img src="./assets/facebook.png" alt="" height="50px">
+   <img src="./assets/instagram.png" alt="" height="50px">
+    <img src="./assets/youtube.png" alt="" height="50px"> </div>
+   </div>
+   
+   <p>تمامی حقوق این وبسایت  متعلق به <span>محمدرضا نادری</span>  است.</p>
+   
+   
+    
+</body>
+</html>
